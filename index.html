@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<link rel="icon" type="image/png" href="favicon.png">
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EvolvEX - Empowering innovation and transformation for the future.">
+  <title>EvolvEX - Innovation for the Future</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    input, textarea {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header with Navigation -->
+  <header class="site-header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/Evolvex_logo.png" alt="EvolvEX Logo">
+      </a>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#hero" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>Unleashing Excellence, Empowering Evolution</h1>
+      <p>Welcome to EvolvEX—where innovation meets transformation.</p>
+      <a href="#services" class="cta-btn">Explore Our Solutions</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Us</h2>
+        <p>At EvolvEX, we believe that our team is the heartbeat of innovation. We’re a group of dedicated thinkers, creative problem solvers, and genuine collaborators on a mission to transform ideas into realities. Our journey is not just about technology—it’s about creating meaningful connections and crafting solutions that truly enrich lives.</p>
+        <p>Driven by a singular vision to redefine excellence, our expertise spans industries, bringing impactful change wherever we go. Join us and experience a future where excellence meets human ingenuity.</p>
+      </div>
+      <div class="about-image">
+        <img src="assets/about-us.jpg" alt="Our Team">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2 style="margin-left: 40px;">Our Services</h2>
+    <div class="service" data-aos="fade-up" data-aos-delay="100">
+      <h3>Consulting</h3>
+      <p><strong>Providing expert guidance and strategy to drive success.</strong></p>
+      <p>At EvolvEX, our consulting team brings extensive international expertise, having successfully led multi-million-dollar projects for some of the world’s most dynamic organizations. We excel in designing transformative strategies, crafting comprehensive solution architectures, and driving impactful initiatives that deliver measurable results. By collaborating with you, we help navigate complex business challenges, develop strategic roadmaps, and foster sustainable growth through innovative thinking and meticulous execution. Let us empower your organization to reach new heights.</p>
+    </div>
+    <div class="service">
+      <h3>Software Development</h3>
+      <p><strong>Building scalable, robust, and custom software solutions.</strong></p>
+      <p>Our software development services are tailored to meet the unique challenges of modern enterprises. Leveraging years of international experience, we design and build software that is not only scalable and secure but also precisely aligned with your business objectives. Whether it's modernizing legacy systems or developing innovative custom solutions, our team is committed to delivering high-quality, reliable software that drives efficiency and propels your organization forward.</p>
+    </div>
+    <div class="service">
+      <h3>Mobile App Development</h3>
+      <p><strong>Crafting high-performance apps for iOS and Android, with native precision.</strong></p>
+      <p>In today’s mobile-first world, delivering a seamless app experience is crucial. At EvolvEX, we craft high-performance mobile applications for both iOS and Android platforms, ensuring native precision in every build. Our experts focus on intuitive design, robust functionality, and uncompromising performance, creating apps that not only meet current market demands but also set the stage for future innovation. Let us transform your ideas into engaging mobile experiences.</p>
+    </div>
+    <div class="service">
+      <h3>Web Development</h3>
+      <p><strong>Designing and developing stunning websites that drive results.</strong></p>
+      <p>Your website is the digital front door to your business. Our web development team combines elegant design with cutting-edge technology to create websites that are both visually stunning and functionally powerful. From responsive design to seamless user experiences, we build digital platforms that not only capture your brand’s essence but also drive meaningful results—whether that's increased engagement, improved conversions, or a strengthened online presence.</p>
+    </div>
+  </section>
+
+
+<!-- Client Logos Section -->
+<section class="logos">
+  <div class="logos-track">
+    <img src="assets/enbridge.png" alt="Client 1"><img src="assets/thales.png" alt="Client 2"><img src="assets/miipe.png" alt="Client 3"><img src="assets/selex.png" alt="Client 4"><img src="assets/bmgf.png" alt="Client 5"><img src="assets/chemonics.png" alt="Client 6"><img src="assets/ippf.png" alt="Client 7">
+    <img src="assets/enbridge.png" alt="Client 1"><img src="assets/thales.png" alt="Client 2"><img src="assets/miipe.png" alt="Client 3"><img src="assets/selex.png" alt="Client 4"><img src="assets/bmgf.png" alt="Client 5"><img src="assets/chemonics.png" alt="Client 6"><img src="assets/ippf.png" alt="Client 7">
+  </div>
+  <p class="logos-caption" style="color: #555555; font-size: 0.7em;">Some of the clients our team has worked for</p>
+</section>
+</section>
+
+
+
+  <!-- Contact Us Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/mblgpjaj" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      
+      <!-- Anti-bot hidden field -->
+      <input type="text" name="_gotcha" style="display:none">
+    
+      <!-- Redirect to thank-you message -->
+      <input type="hidden" name="_redirect" value="thankyou.html">
+    
+      <button type="submit">Send Message</button>
+    </form>
+    
+    
+  </section>
+
+  
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const services = document.querySelectorAll('.service');
+    const observerOptions = {
+      root: null,
+      rootMargin: "0px 0px -50px 0px", // Trigger when element is within 100px of the viewport's bottom
+      threshold: 0
+    };
+  
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target); // Trigger once per element
+        }
+      });
+    }, observerOptions);
+  
+    services.forEach(service => {
+      observer.observe(service);
+    });
+  });
+  </script>
+  
+  
+  
+</body>
+</html>
